@@ -20,3 +20,8 @@ pygame.draw.rect(vrag, [255, 15, 20], [27, 0, 23, 17])
 pygame.draw.rect(vrag, [255, 255, 255], [0, 15, 75, 60], 2)
 pygame.draw.rect(vrag, [255, 255, 255], [27, 0, 23, 17], 2)
 pygame.image.save(vrag, "vrag.png")
+
+lovushka = pygame.Surface([60, 160])
+lovushka.fill([230, 230, 230])
+pygame.draw.rect(lovushka, [20, 100, 255], [5, 5, 50, 150])
+pygame.image.save(lovushka, "lovushka.png")

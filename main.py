@@ -9,3 +9,4 @@ while True:
     controller.p()
     view.view1()
     model.move_vrag()
+
